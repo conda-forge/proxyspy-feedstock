@@ -1,5 +1,5 @@
 {% set name = "proxyspy" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 031850c3639bc0fb99fb671cf9b847e093d14ce541d4b7c79daaafab0cbfa998
+  sha256: 3d2721419ad213ba3c3d0fb5431cda6aecc044cbbdd2b0069b2752336d7c2fce
 
 build:
   number: 0
